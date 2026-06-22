@@ -1,0 +1,6 @@
+{
+  "name": "CareerOS AI",
+  "description": "An end-to-end autonomous career ecosystem containing AI Mentor, Roadmap, Resume ATS Analysis, Github/LeetCode Analyzers, Mock Interviewer, Dual Student/Recruiter portals, and Job Application Tracker.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
