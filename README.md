@@ -19,3 +19,18 @@ View your app in AI Studio: https://ai.studio/apps/96b8b8e4-88a5-4aba-bd8b-8e7f5
 4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
 5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
 6. Run the app on an emulator or physical device
+
+## Vercel Deployment Configuration
+
+This repository includes a preconfigured `vercel.json` and `public/` web portal. When importing this repository into Vercel:
+
+| Setting | Value |
+|---|---|
+| **Framework Preset** | `Other` |
+| **Root Directory** | `./` |
+| **Build Command** | Leave empty (disabled) |
+| **Output Directory** | `public` |
+| **Install Command** | Leave empty (disabled) |
+| **Environment Variables** | `GEMINI_API_KEY` = your Gemini API key |
+
+Vercel will immediately build and serve the live web showcase, features tour, and documentation.
